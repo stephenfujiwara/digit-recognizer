@@ -5,8 +5,6 @@ import torchvision.transforms as transforms
 from tkinter import *
 from model import BobNet
 
-import matplotlib.pyplot as plt
-
 class Pixel():
     def __init__(self, x, y, width, height):
         self.x = x
